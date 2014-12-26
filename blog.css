@@ -1,0 +1,134 @@
+.navbar {
+    background-color: #0c0c0d;
+    height: 50px;
+    width: cover;
+    margin-top: 0;
+}
+
+
+li,
+a:active, 
+a:visited,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 50px;
+  font-size: 1.22rem;
+  color: white;
+    
+
+}
+
+
+li {
+    list-style-type: none;
+    list-style-type: inline-block;
+    display: inline;
+    padding: 30px;
+    margin: auto;
+}
+
+
+body {
+/*	font-family: 'Dosis', sans-serif;*/
+	font-weight: 900;
+	font-style: bold;
+    font-size: 1.1rem;
+    background-color: white;
+}
+
+
+p, 
+.main-title {
+    padding: 20px 30px;
+    margin: auto;
+    font-weight: 900;
+/*    font-size: 1.2em;*/
+    text-align: left;
+    margin: auto;
+}
+
+
+p {
+    line-height: 2;
+
+}
+
+.top-description {
+    padding-left: 20px;
+
+}
+
+.recommendation_logo {
+    width: 22%;
+    height: 22%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    
+}
+
+#app_logos {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+    background-color: #181f1f;
+    padding: 110px 0 110px;
+    color: #e0e0e0;
+    height: 80px;
+    margin-bottom: 0;
+    width: cover;
+}
+
+
+.img-rounded {
+    max-width: auto;
+    max-height: 70px;
+    height: auto;
+    display: block;
+    margin-left: 400px;
+
+}
+
+.social_media {
+    margin-bottom: 15px;
+}
+
+.social-icon {
+    width: 40px;  /*adjusts the size of the icons*/
+    height: 40px;
+    margin: 0 5px;
+}
+
+
+p {
+    padding: 0;
+    margin: auto;
+}
+
+.backToTop {
+    color: grey;
+    font-size: 0.7rem;
+}
+
+
+
+
+/* Media Queries (all) ------------------ */
+
+/*
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}*/
