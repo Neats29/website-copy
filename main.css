@@ -1,17 +1,18 @@
 .navbar {
     background-color: #0c0c0d;
     height: 60px;
-    width: cover;
+/*    width: cover;*/
     margin-top: 0;
 }
 
 #nav,
-a:active, 
+/*
+a:active,
 a:visited,
+*/
 a {
   list-style-type: none;
   text-decoration: none;
-  line-height: 4px;
   font-size: 1.22rem;
   color: white;
   font-weight: 900;
@@ -19,23 +20,29 @@ a {
 
 #nav {
   float: right;
+  line-height: 4px;
 }
 
+.active {
+    color: #686868;
+}
+
+
 /*hamburger menu*/
+/*
 #menu-icon {
 
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(menu-icon.png) center;
+	background: url('1419714677_menu-alt-128.png') center;
 
 }
 
 a:hover#menu-icon {
-
-	background-color: #444;
 	border-radius: 4px 4px 0 0;
 }
+*/
 
 /*-----------*/
 
@@ -45,7 +52,7 @@ h1 {
 /*    font-family: 'Pacifico', cursive;*/
     font-family: 'Oswald', sans-serif;
     color: #222424;
-/*    text-shadow: 5px 4px 1px #d5d5d6;*/
+    text-shadow: 5px 4px 1px #d5d5d6;
     padding: 0;
 /*    letter-spacing: -0.05em;*/
 /*    border-bottom: 1.5px solid lightgrey;*/
@@ -55,6 +62,7 @@ h1 {
     text-align: center;
     font-size: 1.7rem;
     font-style: thin;
+    color: grey;
 }
 
 .front-end-div {
@@ -62,7 +70,7 @@ h1 {
     font-size: 3rem;
     text-align: center;
     background-color: royalblue;
-    padding: 60px 0 180px;
+    padding: 30px 0 180px;
     color: white;
     max-height: 450px;
 }
@@ -74,7 +82,7 @@ h1 {
 
 
 .title {
-    padding: 40px;
+    padding: 0;
 }
 
 
@@ -109,6 +117,11 @@ li {
 .css {
     background: url('Screen%20Shot%202014-12-16%20at%2012.29.40.png') no-repeat center;
 }
+
+/*.js {*/
+/*    background: url('') no-repeat center;*/
+/*}*/
+
 
 
 .photo-div {
@@ -258,11 +271,10 @@ footer {
     font-size: 1rem;
     text-align: center;
     background-color: #181f1f;
-    padding: 110px 0 110px;
+    padding: 90px 0 90px;
     color: #e0e0e0;
-    height: 80px;
+    max-height: 80px;
     margin-bottom: 0;
-    width: cover;
 }
 
 
@@ -272,11 +284,11 @@ footer {
     height: auto;
     display: block;
     margin-left: 400px;
-
 }
 
 .social_media {
     margin-bottom: 15px;
+    display: block;
 }
 
 .social-icon {
@@ -285,30 +297,141 @@ footer {
     margin: 0 5px;
 }
 
+/*
+#codepen {
+    width: 43px;
+    height: 43px;
+    background-color: white;
+    border-radius: 50%;
+}
+*/
 
+#medium-logo {
+    border-radius: 50%;
+    width: 43px;
+    height: 43px;
+}
+
+
+/*
 p {
     padding: 0;
     margin: 0;
 }
+*/
 
 .backToTop {
     color: grey;
     font-size: 0.7rem;
 }
 
+/*--------------------------------*/
+/*about me page ------------------*/
 
 
+#profile-photo {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    border: solid 3px #474951;
+    margin: 15px auto 40px;
+}
+
+.about-content {
+    color: #4f4f54;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.5;
+    max-width: 920px;
+    margin: 10px auto 20px;
+    font-size: 1.2rem;
+}
+
+#last-p {
+    padding-bottom: 30px;
+}
+
+
+/*--------------------------------*/
+/*blog page ----------------------*/
+
+.main-title {
+    padding: 35px 30px;
+    margin: auto;
+    font-weight: 800;
+/*    font-size: 1.2em;*/
+}
+
+.top-description {
+    max-width: 900px;
+    margin: 1px 20px;
+    padding: 0 10px;
+    line-height: 1.7;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+}
+
+.recommendation_logo {
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    padding: 10px 0 10px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+}
+
+#app_logos {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+
+h3 {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+
+.recommendation-p {
+    line-height: 1.8;
+    max-width: 900px;
+    padding: 0 25px 15px;
+    margin: auto;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2rem;
+}
+
+/*#left-float {
+  float: left;
+  display: inline;
+}*/
+
+/*
+#right-float {
+  float: right;
+  display: inline;
+}
+*/
+
+/*--------------------------------------*/
 /*Media Queries (all) ------------------*/
 
 
 @media (max-width: 1024px) {
-    #menu-icon {
+/*    #menu-icon {*/
 
-		display:inline-block;
+/*		display:inline-block;*/
 
-	}
+/*}*/
 
-	nav ul, nav:active ul { 
+/*
+	nav ul, nav:active ul {
 
 		display: none;
 		position: absolute;
@@ -336,22 +459,45 @@ p {
 		display: block;
 
 	}
+*/
+
+#nav,
+/*
+a:active,
+a:visited,
+*/
+a {
+  list-style-type: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+    
+#nav {
+    line-height: 60px;
+    padding: 0; 
+    float: left;
+    
+}
 
 
 .music-div {
     max-height: 750px;
-}
+    }
 }
 
 @media (max-width: 768px) {
-    
+
+/*
 li,
-a:active, 
+a:active,
 a:visited,
 a {
   font-size: 1rem;
   font-weight: 700;
 }
+*/
+   
     
 h1 {
     font-size: 3rem;
@@ -360,7 +506,7 @@ h1 {
     color: #222424;
     padding: 45px
 }
-    
+
 .welcome {
     font-size: 1rem;
 }
@@ -369,15 +515,15 @@ h1 {
     font-size: 3rem;
 }
     .front-end-div {
-    font-size: 2.5rem;
-    max-height: 670px;
+    font-size: 2.4rem;
+    max-height: 690px;
 }
     li {
     padding: 20px;
     margin-left: 30px;
     margin-right: 30px;
 }
-    
+
 .html,
 .css,
 .js {
@@ -388,7 +534,7 @@ h1 {
 }
 .photo-div {
     font-size: 2.4rem;
-    max-height: 750px;
+    max-height: 800px;
 }
 .text-photo {
     width: 300px;
@@ -402,7 +548,7 @@ h1 {
 }
 
 .photo-div p {
-    padding: 25px;
+    padding: 0;
 }
 
 
@@ -410,7 +556,7 @@ h1 {
     font-size: 2.5rem;
     max-height: 1070px;
 }
-    
+
 iframe {
     width: 300px;
     height: 300px;
@@ -443,17 +589,48 @@ td {
 
 footer {
     font-size: .9rem;
-    padding: 40px
-    max-height: 60px;
+    padding: 40px 0 40px;
 }
 
-    
+
 .social_media {
     margin-bottom: 10px;
 }
 .social-icon {
     width: 20px;  /*adjusts the size of the icons*/
     height: 20px;
+}
+
+#medium-logo {
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+
+/*About me page*/
+
+.about-content,
+#last-p {
+    padding: 0 20px 10px;
+    font-size: 95%;
+}
+
+
+/*blog page*/
+   .main-title {
+    padding: 20px 30px;
+    margin: auto;
+    font-weight: 800;
+/*    font-size: 1.2em;*/
+    display: block;
+}
+
+.top-description,
+.recommendation_logo,
+#app_logos,
+h3,
+.recommendation-p {
+    font-size: 90%;
 }
 
 }
