@@ -468,8 +468,8 @@ a:visited,
 */
 a {
   list-style-type: none;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: .9rem;
+  font-weight: 500;
 }
 
     
