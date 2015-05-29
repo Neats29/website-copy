@@ -27,6 +27,9 @@ a {
     color: #686868;
 }
 
+#github {
+    margin: 10px 20px 0;
+}
 
 /*hamburger menu*/
 /*
@@ -100,7 +103,6 @@ li {
 .js {
     font-size: 2.2rem;
     background-color: #dee2de;
-    color: ;
     border-radius: 50%;
     text-align: center;
     width: 160px;
@@ -112,17 +114,100 @@ li {
 
 .html {
     background: url('Screen%20Shot%202014-12-16%20at%2012.30.11.png') no-repeat center;
+	border: 3px solid grey;
 }
 
 .css {
     background: url('Screen%20Shot%202014-12-16%20at%2012.29.40.png') no-repeat center;
+	border: 3px solid grey;
 }
 
-/*.js {*/
-/*    background: url('') no-repeat center;*/
-/*}*/
+.js {
+    background: url('Screen Shot 2015-04-03 at 2.17.20 PM.png') no-repeat center;
+	border: 3px solid grey;
+}
 
+.portfolio-div {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    background-color: #cb4d7b;
+    padding: 80px 0 180px;
+    color: white;
+    max-height: 350px;
+}
 
+.portfolio-logo {
+    width: 60px;
+    height: 60px;
+    color: white;
+}
+
+#portfolio-image {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+	margin: 10px 20px 25px;
+	border: 3px solid lightgrey;
+}
+
+/*
+.fikay {
+    border-radius: 50%;
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    line-height: 160px;
+}
+*/
+
+/*
+#hex {
+    
+    width: 200px;
+  height: 200px;
+}
+
+#color {
+    background-color: white;
+}
+
+#hex {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+    
+}
+
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
+}
+*/
 
 .photo-div {
     font-family: 'Oswald', sans-serif;
@@ -468,8 +553,8 @@ a:visited,
 */
 a {
   list-style-type: none;
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: .9rem;
+  font-weight: 500;
 }
 
     
