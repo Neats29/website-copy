@@ -1,0 +1,41 @@
+#bg { 
+  width: 50%;
+  height:auto;
+}
+
+.navbar {
+	margin: auto;
+	display: block;
+
+}
+.nav {
+	list-style-type: none;
+	
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li:hover {
+	color: aqua;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+/*
+
+.img {
+	 position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+   Preserve aspet ratio 
+  max-width: 50px;
+	max-height: auto;
+
+}*/
