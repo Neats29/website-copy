@@ -1,0 +1,48 @@
+.img {
+	width: 500px;
+  	height: auto;
+	display: block;
+	margin: auto;
+}
+
+#bg {
+	background-color: #FECF50;	
+	overflow: visible;
+}
+
+/*
+.navbar {
+	margin: auto;
+	display: block;
+
+}
+*/
+.nav {
+	display: inline;
+	list-style-type: none;
+	float: right;
+	
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li:hover {
+	color: aqua;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+.title {
+	font-size: 4.8rem;
+	margin: -40px 0 -40px 48px;
+	font-family: 'Shadows Into Light', cursive;
+	color: #353535;
+	display: inline;
+	
+}
