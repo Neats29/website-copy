@@ -1,24 +1,55 @@
-#bg { 
-  width: 50%;
-  height:auto;
-}
-
-.navbar {
-	margin: auto;
+.img {
+	width: 500px;
+  	height: auto;
 	display: block;
-
+	margin: auto;
 }
-.nav {
+
+#bg {
+	background-color: #FECF50;	
+}
+
+.myNav li a span {
+	display: inline-block;
 	list-style-type: none;
+	float: right;
+}
+
+.myNav li a {
+	cursor: pointer;
+}
+
+.nav nav-pills {
+	display: inline-block;
 	
 }
 
-.nav li {
-	display: inline-block;
+.glyphicon {
+	color: #353535;
+	width: 50px;
+	height: 50px;
 }
 
-.nav li:hover {
-	color: aqua;
+.icon {
+	width: 50px;
+	height: 50px;
+	color: #353535;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav>li>a>span:focus, .nav>li>a>span:hover {
+    background-color: transparent;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent !important;
+}
+
+.nav li span:hover {
+	color: white;
 }
 
 .icon {
@@ -27,15 +58,50 @@
 	display: inline-block;
 }
 
-/*
-
-.img {
-	 position: fixed; 
-  top: 0; 
-  left: 0; 
+.title {
+	font-size: 4.8rem;
+	margin: -40px 0 -40px 48px;
+	font-family: 'Shadows Into Light', cursive;
+	color: #353535;
+	display: inline;
 	
-   Preserve aspet ratio 
-  max-width: 50px;
-	max-height: auto;
+}
 
-}*/
+/*////////////////////////////////*/
+
+.myRow {
+	display: flex; 
+}
+
+.about {
+	background-color: #1352A2;
+/*	background-color: #333333;*/
+	display: inline-block;
+	width: 50vw;
+	padding: 20px;
+	flex: 1;
+}
+
+.about h1 {
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	color: white;
+	font-size: 4.5rem;
+}
+
+.about-description {
+	background-color: #ebe4e4;
+	display: inline-block;
+	float: right;
+	width: 50vw;
+	padding: 20px;
+	font-family: 'Amatic SC', cursive;
+}
+
+.about-description p {
+	font-size: 3rem;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
+
+
