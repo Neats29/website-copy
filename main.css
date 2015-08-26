@@ -15,8 +15,16 @@
 	float: right;
 }
 
+.myNav li {
+	margin: 0;
+}
+
 .myNav li a {
 	cursor: pointer;
+}
+
+.myNav .nav .nav-pills {
+	margin: 0;
 }
 
 .nav nav-pills {
