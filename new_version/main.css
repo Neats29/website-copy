@@ -1,15 +1,26 @@
-#bg { 
-  width: 50%;
-  height:auto;
+.img {
+	width: 500px;
+  	height: auto;
+	display: block;
+	margin: auto;
 }
 
+#bg {
+	background-color: #FECF50;	
+	overflow: visible;
+}
+
+/*
 .navbar {
 	margin: auto;
 	display: block;
 
 }
+*/
 .nav {
+	display: inline;
 	list-style-type: none;
+	float: right;
 	
 }
 
@@ -27,15 +38,11 @@
 	display: inline-block;
 }
 
-/*
-
-.img {
-	 position: fixed; 
-  top: 0; 
-  left: 0; 
+.title {
+	font-size: 4.8rem;
+	margin: -40px 0 -40px 48px;
+	font-family: 'Shadows Into Light', cursive;
+	color: #353535;
+	display: inline;
 	
-   Preserve aspet ratio 
-  max-width: 50px;
-	max-height: auto;
-
-}*/
+}
