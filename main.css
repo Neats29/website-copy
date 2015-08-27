@@ -11,7 +11,7 @@
 
 .title {
 	font-size: 5rem;
-	margin: -40px 0 -40px 48px;
+	margin: 20px 0 -40px 48px;
 	font-family: 'Shadows Into Light', cursive;
 	color: #353535;
 	display: inline;	
@@ -21,25 +21,19 @@
 .myNav li a span {
 	display: inline;
 	list-style-type: none;
-	float: right;
-	margin: -10px;
+	margin: 0 15px;
 }
 
-.myNav li {
-	margin: 0;
-}
 
 .myNav li a {
 	cursor: pointer;
 }
 
-.myNav .nav .nav-pills {
-	margin: 0;
-}
 
-.nav nav-pills {
-	display: inline-block;
-	
+.myNav {
+	display: inline-block !important;
+	float: right;
+	margin: 10px 20px 0 0;
 }
 
 .glyphicon {
@@ -48,15 +42,13 @@
 	height: 50px;
 }
 
+
 .icon {
-	width: 50px;
-	height: 50px;
+	width: 150%;
+	height: 150%;
 	color: #353535;
 }
 
-.nav li {
-	display: inline;
-}
 
 .nav>li>a>span:focus, .nav>li>a>span:hover {
     background-color: transparent;
@@ -70,11 +62,6 @@
 	color: white;
 }
 
-.icon {
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-}
 
 
 /*////////////////////////////////*/
@@ -112,6 +99,7 @@
 	font-size: 3rem;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
+/*	color: #1352A2;*/
 }
 
 
