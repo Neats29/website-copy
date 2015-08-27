@@ -6,13 +6,23 @@
 }
 
 #bg {
-	background-color: #FECF50;	
+	background-color: #FFD041;	
 }
 
+.title {
+	font-size: 5rem;
+	margin: -40px 0 -40px 48px;
+	font-family: 'Shadows Into Light', cursive;
+	color: #353535;
+	display: inline;	
+}
+
+
 .myNav li a span {
-	display: inline-block;
+	display: inline;
 	list-style-type: none;
 	float: right;
+	margin: -10px;
 }
 
 .myNav li {
@@ -66,14 +76,6 @@
 	display: inline-block;
 }
 
-.title {
-	font-size: 4.8rem;
-	margin: -40px 0 -40px 48px;
-	font-family: 'Shadows Into Light', cursive;
-	color: #353535;
-	display: inline;
-	
-}
 
 /*////////////////////////////////*/
 
