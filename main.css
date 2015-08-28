@@ -15,6 +15,7 @@
 	font-family: 'Shadows Into Light', cursive;
 	color: #353535;
 	display: inline;	
+	margin-top: 20px;
 }
 
 
@@ -84,6 +85,7 @@
 	text-align: center;
 	color: white;
 	font-size: 4.5rem;
+	padding-top: 35px;
 }
 
 .about-description {
