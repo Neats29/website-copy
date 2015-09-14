@@ -10,7 +10,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div id="bg">
+	<div class="row">
+	<div id="bg" class="col-md-12">
   	<h1 class="title">Neats</h1>
 <!--  	<div class="navbar">-->
 		<ul class="myNav nav nav-pills">
@@ -20,17 +21,41 @@
 			<li><a><span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span></a></li>
 		</ul>
 <!--	</div>-->
-  	<img src="./images/hat-small.jpg" class="img">
+  	<img src="./images/hat-small.jpg" class="img img-responsive">
 	</div>
-	<div class="myRow">
-		<div class="about" id="about">
+	</div>
+	<div class="about-row row">
+		<div class="about col-md-6 col-xs-6" id="about">
 			<h1>About</h1>
 		</div>
-		<div class="about-description">
+		<div class="about-description col-md-6 col-xs-6">
 			<h1>Hello, I'm a full-stack web developer with an interest in design.</h1>
-			<p>Javascript - Node.js - HTML - CSS - Databases</p>
+			<p class="skills-list">Javascript - Node.js - HTML - CSS - Databases </p>
+<!--
+			<ul class="skills-list">
+				<li>Javascript </li>
+				<li>Node.js </li>
+				<li>HTML </li>
+				<li>CSS </li>
+				<li>Databases </li>
+			</ul>
+-->
 		</div>
 	</div>
+	<div class="work-row row">
+		<div class="work-description col-md-6 col-xs-6">
+			<h1></h1>
+		</div>
+		<div class="work col-md-6 col-xs-6">
+			<h1>work</h1>
+		</div>
+	</div>
+<!--
+	<div class="contact-row">
+		<div class="contact"></div>
+		<div class="contact-description"></div>
+	</div>
+-->
 	<script src="min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/evil-icons/1.7.2/evil-icons.min.js"></script>
 </body>
