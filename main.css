@@ -16,6 +16,7 @@
 	color: #353535;
 	display: inline;	
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 
@@ -67,7 +68,7 @@
 
 /*////////////////////////////////*/
 
-.myRow {
+.about-row {
 	display: flex; 
 }
 
@@ -77,9 +78,10 @@
 	width: 50vw;
 	padding: 20px;
 	flex: 1;
+	padding: 20px;
 }
 
-.about h1 {
+.about h1, .work h1 {
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
 	color: white;
@@ -88,18 +90,82 @@
 }
 
 .about-description {
-	background-color: #ebe4e4;
+	background-color: #eeebeb;
 	display: inline-block;
 	float: right;
 	width: 50vw;
 	padding: 20px;
+	text-align: center;
 	font-family: 'Amatic SC', cursive;
 }
 
-.about-description p {
+
+
+.skills-list {
 	font-size: 3rem;
 	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
+<<<<<<< HEAD
+/*	display: inline;*/
+	margin: 0;
+}
+
+/*
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.skills-list li {
+		display: block;
+		list-style-type: circle;
+	}
+=======
+>>>>>>> master
+}
+*/
+
+
+.work-row {
+	display: flex;
+}
+
+.work-description {
+	display: inline-block;
+	width: 50vw;
+	float: left;
+}
+
+.work {
+	width: 50vw;
+	float: right;
+	flex: 1;
+	background-color: crimson;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	font-size: 3rem;
 }
 
 
+
+/*-----------title animation------------*/
+.title:hover {
+	animation-name: neats;
+	animation-duration: 2s;
+}
+
+/*
+@keyframes neats {
+	from{ 
+		transform: none; 
+	}
+	15% { 
+		transform: translte3d(-30%, 0, 0) rotate3d(0,0,1, -5deg);
+		-webkit-transform: translte3d(-30%, 0, 0) rotate3d(0,0,1, -5deg);
+		background-color: blue; 
+	}
+	to { 
+		transform: none; 
+	}
+}
+*/
